@@ -4,33 +4,72 @@
 
 body {
     margin: 10px;
-    background-color: #FFFBF5;
+    background-color: #181D31;
     padding: 5px;
+    /* color: #F0E9D2; */
 }
 
 h1 {
-    color: #674188;
+    color: #E6DDC4;
+    font-size: 2.5em;
+}
+h3 {
+    margin-left:  60px;
+    color: rgb(245, 210, 124);
+}
+
+span {
+    color: #678983;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+p {
+    color: #F0E9D2;
+}
+
+li {
+    color: #F0E9D2;
+    padding: 2px;
+}
+
+td {
+    color: #F0E9D2;
+}
+
+a{
+    color: #E6DDC4;
+    text-decoration-style: double;
+    text-decoration-color: #678983;
 }
 
 .myProfile {
     width: 250px;
     border: solid;
     border-width: 5px;
-    border-color: #674188;
+    border-color: #678983;
+    
 }
 
 .myDetails {
     margin: 2px auto 2px auto;
-    background-color: #FFF4D2;
+    /* background-color: #678983; */
     padding: 1px 2%;
     /* border-style: dashed;
     border-color: #674188; */
+    width: 80%;
 }
 
 hr {
     border-style: none;
-    border-top-style: dotted;
-    border-color: #F7EFE5;
+    border-top-style: double;
+    border-color: #678983;
     border-width: 5px;
-    width: 50%;
+    width: 85%;
+}
+
+.subtitleImage {
+    width: 5%;
+    float: left;
+    margin: 5px auto;
 }
