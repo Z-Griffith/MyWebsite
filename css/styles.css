@@ -1,17 +1,36 @@
+.myProfile {
+    border-radius: 100%;
+}
+
 body {
+    margin: 10px;
     background-color: #FFFBF5;
+    padding: 5px;
 }
 
 h1 {
     color: #674188;
 }
 
+.myProfile {
+    width: 250px;
+    border: solid;
+    border-width: 5px;
+    border-color: #674188;
+}
 
+.myDetails {
+    margin: 2px auto 2px auto;
+    background-color: #FFF4D2;
+    padding: 1px 2%;
+    /* border-style: dashed;
+    border-color: #674188; */
+}
 
 hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #F7EFE5;
     border-width: 5px;
-    width: 20%;
+    width: 50%;
 }
